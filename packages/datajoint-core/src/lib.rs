@@ -1,6 +1,9 @@
 #[macro_use]
 extern crate num_derive;
 
+#[macro_use]
+extern crate md5;
+
 pub mod common;
 pub mod connection;
 pub mod error;
